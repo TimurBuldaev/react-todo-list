@@ -24,7 +24,7 @@ const newItem = () => {
       id: uuidv4(),
       item: item,
       color: randomColor({
-        luminosity: 'light',
+        luminosity: 'dark',
       }),
       defaultPos: {
         x: 500,
